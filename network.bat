@@ -20,7 +20,8 @@ echo 5. Check Energy Efficiency
 echo 6. Text Association
 echo 7. Repair Disk
 echo 8. QR code
-echo 9. Exit
+echo 9. Show Users on a File
+echo 10. Exit
 echo ============================
 
 set /p option= Select the option and press ENTER: 
@@ -33,7 +34,8 @@ if %option% == 5 goto ENERGY_EFFICIENT
 if %option% == 6 goto TEXT_ASSOCIATION
 if %option% == 7 goto DISC_REPAIR
 if %option% == 8 goto QR_CODE
-if %option% == 9 goto SAIR
+if %option% == 9 goto USERS_TO_FILE
+if %option% == 10 goto SAIR
 
 goto MENU
 
@@ -79,6 +81,11 @@ goto MENU
 :QR_CODE
 set /p url="Insert url: "
 ping %url%
+pause
+goto MENU
+
+:USERS_TO_FILE
+net user >> USERS.TXT
 pause
 goto MENU
 

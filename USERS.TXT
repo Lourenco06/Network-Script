@@ -1,0 +1,8 @@
+
+Contas de utilizador para \\LAPTOP-D2E4R9PN
+
+-------------------------------------------------------------------------------
+Administrador            Convidado                DefaultAccount           
+lourent                  WDAGUtilityAccount       
+O comando foi conclu¡do com ˆxito.
+
