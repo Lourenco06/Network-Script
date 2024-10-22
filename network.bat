@@ -1,7 +1,7 @@
 @echo off
 REM ********************************************
 REM Programador...: (C) Lourenço Moreira
-REM Data..........: 17/10/24
+REM Data..........: 22/10/24
 REM Descrição.....: Network Script
 REM ********************************************
 :MENU
